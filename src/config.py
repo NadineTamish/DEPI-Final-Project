@@ -12,4 +12,4 @@ VERSION = "1.0.0"
 SECRET_KEY_TOKEN = os.getenv("SECRET_KEY_TOKEN", "default-secret-key")
 
 # Model configuration
-MODEL_PATH = os.getenv("MODEL_PATH", "models/best.pt")  # Update with your model path
+MODEL_PATH = os.getenv("MODEL_PATH", "model/best.pt")  # Update with your model path
